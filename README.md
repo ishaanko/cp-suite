@@ -1,3 +1,3 @@
 # cp-suite
 
-Solutions to various competitive programming contests and events.
+My solutions to various competitive programming contests/events.
