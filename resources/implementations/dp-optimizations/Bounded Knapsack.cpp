@@ -1,4 +1,6 @@
-#include<bits/stdc++.h>
+#include <iostream>
+#include <queue>
+#include <vector>
 using namespace std;
 
 // ps-profits
@@ -8,7 +10,7 @@ using namespace std;
 // O(n*W)
 int boundedKnapsack(vector<int> ps, vector<int> ws, vector<int> ms, int W) {
   int n = ps.size();
-  vector<vector<int>> dp(n + 1, vector<int>(W + 1));
+  vector<vector<int> > dp(n + 1, vector<int>(W + 1));
   for (int i = 0; i < n; ++i) {
     for (int s = 0; s < ws[i]; ++s) {
       int alpha = 0;

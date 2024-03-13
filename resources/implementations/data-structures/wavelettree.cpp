@@ -1,4 +1,6 @@
-#include<bits/stdc++.h>
+#include <cstddef>
+#include <cstdlib>
+#include <iostream>
 using namespace std;
 
 const int MAXN = (int)3e5 + 9;
@@ -101,7 +103,7 @@ int main() {
       //less than or equal to K
       cout << t.LTE(l, r, k) << endl;
     } else if(x == 2) {
-      //count occurence of K in [l, r]
+      //count occurrence of K in [l, r]
       cout << t.count(l, r, k) << endl;
     }
     if(x == 3) {

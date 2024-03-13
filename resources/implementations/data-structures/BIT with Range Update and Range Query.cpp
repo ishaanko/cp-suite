@@ -1,4 +1,6 @@
 #include<bits/stdc++.h>
+#include <cstdint>
+#include <cstring>
 using namespace std;
 
 const int N = 3e5 + 9;
@@ -13,7 +15,7 @@ struct BIT {
     while (i < N) {
       M[i] += mul;
       A[i] += add;
-      i |= (i + 1);
+      i += 1;
     }
   }
   void upd(int l, int r, long long x) {
