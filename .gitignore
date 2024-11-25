@@ -32,6 +32,9 @@
 *.app
 
 # Other
+.idea
+CMakeLists.txt
+cmake-build-debug
 main.cpp
 /main
 .DS_Store
