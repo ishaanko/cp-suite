@@ -42,4 +42,5 @@ cmake-build-debug
 # Other
 .idea
 main.cpp
+main.exe
 .DS_Store
