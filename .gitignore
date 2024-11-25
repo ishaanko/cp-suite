@@ -32,6 +32,8 @@
 *.app
 
 # Other
+.clang-format
+.clang-tidy
 .idea
 CMakeLists.txt
 cmake-build-debug
