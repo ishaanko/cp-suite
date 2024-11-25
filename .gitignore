@@ -31,13 +31,15 @@
 *.out
 *.app
 
-# Other
-.clang-format
-.clang-tidy
-.idea
+# CMake
 CMakeLists.txt
 cmake-build-debug
+
+# Clang
+.clang-format
+.clang-tidy
+
+# Other
+.idea
 main.cpp
-/main
 .DS_Store
-.vscode
