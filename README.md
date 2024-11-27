@@ -1,3 +1,3 @@
-# cp-suite
+# cp-notebook
 
 My solutions to various competitive programming contests/events.
